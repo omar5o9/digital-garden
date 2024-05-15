@@ -1,0 +1,27 @@
+---
+const siteName = "Omar's Digital Garden";
+const pageName = "Portfolio";
+import NavBar from "../components/navBar.astro";
+import "../styles/global.css";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageName}</title>
+	</head>
+	<body>
+        <NavBar/>
+        <div class="tenor-gif-embed" data-postid="9931661112540262776" data-share-method="host" data-aspect-ratio="1.12162" data-width="3%"><a href="https://tenor.com/view/mykhailo-mudryk-knee-slide-cfc-chelsea-fc-chelsea-football-club-gif-9931661112540262776">Mykhailo Mudryk Knee Slide GIF</a>from <a href="https://tenor.com/search/mykhailo+mudryk-gifs">Mykhailo Mudryk GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        
+        <h1>{pageName}</h1>
+		<p>Yo</p>
+        <nav>
+            <a href="/posts/project-1">Project 1</a>
+            <a href="/posts/project-2">Project 2</a>
+        </nav>
+	</body>
+</html>

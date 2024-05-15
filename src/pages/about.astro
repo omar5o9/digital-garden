@@ -1,0 +1,31 @@
+---
+const pageName = "About";
+import NavBar from "../components/navBar.astro";
+import "../styles/global.css";
+const skills = ['html', 'css', 'javascript']
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageName}</title>
+	</head>
+	<body>
+		<NavBar />
+		
+		<h1>{pageName}</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ex optio animi sequi repudiandae maxime iure nulla aliquam sit, deleniti esse reiciendis nemo atque, voluptatum eum voluptate. Et, vel soluta?</p>
+		
+        <h2>Skills</h2>
+        <ul>
+            {skills.map(skill => (
+                <li>{skill}</li>
+            ))}
+        </ul>
+
+	</body>
+</html>

@@ -1,5 +1,7 @@
 ---
-
+const siteName = "Omar's Digital Garden";
+import NavBar from "../components/navBar.astro";
+import "../styles/global.css";
 ---
 
 <html lang="en">
@@ -11,6 +13,10 @@
 		<title>Yo</title>
 	</head>
 	<body>
-		<h1>Omar's Digital Garden</h1>
+		<NavBar />
+		
+		<h1>{siteName}</h1>
+		<p>Yo</p>
+		
 	</body>
 </html>

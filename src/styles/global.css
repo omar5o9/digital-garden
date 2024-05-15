@@ -1,0 +1,57 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b80db8;
+    flex-direction: column;
+    display: flex;
+    color: lime;
+    /* height: 100%;
+    width: 100%; */
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: lime;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+a {
+    color: lime;
+    text-decoration: none;
+
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #b80db8;
+    color: #fff;
+
+    border: 20px lime groove;
+    margin: 0;
+
+    /* height: 100%;
+    width: 100%; */
+}
+
+.Navbar a {
+    color: lime;
+    text-decoration: none;
+    font-size: 20px;
+    border: 5px lime inset;
+}
+
+.Navbar a:hover {
+    color: #b80db8;
+    background-color: lime;
+}
+
+
+/* Add your own custom styles here */
